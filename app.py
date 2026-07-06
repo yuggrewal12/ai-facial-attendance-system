@@ -1,6 +1,6 @@
 import sys
 import os
-user_site = r'C:\Users\voist\AppData\Roaming\Python\Python314\site-packages'
+user_site = r'C:\Users\user\AppData\Roaming\Python\Python314\site-packages'
 if user_site not in sys.path:
     sys.path.insert(0, user_site)
 import cv2
